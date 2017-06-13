@@ -1,4 +1,7 @@
 # scattering simulator
+# NOTE : Simulator is not meant to be used directly
+# It is meant to be inherited (see Nmer3Simulator)
+# Simulator cannot be used alone because of its dependence on a specific MRO
 import numpy as np
 from scipy.stats import expon, lognorm, gamma, norm, uniform
 from misc import constants
